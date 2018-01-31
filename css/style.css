@@ -1,0 +1,115 @@
+body{
+	text-align: center;
+}
+/*Верхня частина*/
+#firstpart{
+	background-color: #23232e;
+	padding: 90px;
+
+
+}
+/*Нижня частина*/
+#secondpart {
+	background-image: url(../icons/1.png);
+	color: rgb(70, 75, 79);
+	height: 200%;
+	padding: 70px;
+}
+/*Верхня частина. Заголовок: I LOVE DESIGN*/
+#h1head {
+ 	font-size: 90px;
+ 	font-family: "Segoe UI";
+ 	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	padding-top: 120px;
+}
+/*Верхня частина. Текст під заголовком*/
+#phead {
+	font-size: 20px;
+	font-family: "Segoe UI";
+	color: rgb(255, 255, 255);
+	line-height: 1.667;
+	height: 230px;
+}
+/*Нижня частина. Текст два абзаци*/
+.text {
+  font-size: 34px;
+  font-family: "Segoe UI";
+  color: rgb(70, 75, 79);
+  line-height: 1.4;
+}
+/*Нижня частина. Заголовок: WHAT I DO*/
+#h1body {
+	font-size: 90px;
+ 	font-family: "Segoe UI";
+ 	color: rgb(70, 75, 79);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	padding-top: 60px;
+}
+/*Нижня частина. Таблиця*/
+table {
+	font-size: 20px;
+  	font-family: "Segoe UI";
+  	color: rgb(70, 75, 79);
+  	line-height: 1.4;
+	width: 1200px;
+	margin: auto;
+	text-align: left;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 50px;
+    border-color: grey;
+}
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
